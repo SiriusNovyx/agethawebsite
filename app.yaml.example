@@ -1,0 +1,11 @@
+# Copy this file to app.yaml before deploying.
+# Replace both placeholders with values from your own Wasmer account.
+kind: wasmer.io/App.v0
+owner: YOUR_WASMER_USERNAME
+name: YOUR_APP_NAME
+package: .
+description: Agetha.exe Mod project website maintained by SiriusNovyx
+
+capabilities:
+  cdn_cache:
+    enabled: true
